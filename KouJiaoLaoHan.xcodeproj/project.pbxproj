@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67D683F31EB0A2F400969907 /* dtfyguhij.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D683F21EB0A2F400969907 /* dtfyguhij.m */; };
 		67FE329B1EB08BA0003BC3B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE329A1EB08BA0003BC3B7 /* main.m */; };
 		67FE329E1EB08BA0003BC3B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE329D1EB08BA0003BC3B7 /* AppDelegate.m */; };
 		67FE32A11EB08BA0003BC3B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE32A01EB08BA0003BC3B7 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67D683F11EB0A2F400969907 /* dtfyguhij.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtfyguhij.h; sourceTree = "<group>"; };
+		67D683F21EB0A2F400969907 /* dtfyguhij.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dtfyguhij.m; sourceTree = "<group>"; };
 		67FE32961EB08BA0003BC3B7 /* KouJiaoLaoHan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KouJiaoLaoHan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FE329A1EB08BA0003BC3B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		67FE329C1EB08BA0003BC3B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				67FE329D1EB08BA0003BC3B7 /* AppDelegate.m */,
 				67FE329F1EB08BA0003BC3B7 /* ViewController.h */,
 				67FE32A01EB08BA0003BC3B7 /* ViewController.m */,
+				67D683F11EB0A2F400969907 /* dtfyguhij.h */,
+				67D683F21EB0A2F400969907 /* dtfyguhij.m */,
 				67FE32A21EB08BA0003BC3B7 /* Main.storyboard */,
 				67FE32A51EB08BA0003BC3B7 /* Assets.xcassets */,
 				67FE32A71EB08BA0003BC3B7 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D683F31EB0A2F400969907 /* dtfyguhij.m in Sources */,
 				67FE32A11EB08BA0003BC3B7 /* ViewController.m in Sources */,
 				67FE329E1EB08BA0003BC3B7 /* AppDelegate.m in Sources */,
 				67FE329B1EB08BA0003BC3B7 /* main.m in Sources */,
@@ -509,6 +515,7 @@
 				67FE32C51EB08BA0003BC3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67FE32C61EB08BA0003BC3B7 /* Build configuration list for PBXNativeTarget "KouJiaoLaoHanTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +524,7 @@
 				67FE32C81EB08BA0003BC3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67FE32C91EB08BA0003BC3B7 /* Build configuration list for PBXNativeTarget "KouJiaoLaoHanUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +533,7 @@
 				67FE32CB1EB08BA0003BC3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

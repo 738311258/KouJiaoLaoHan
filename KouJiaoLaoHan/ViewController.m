@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "dtfyguhij.h"
 @interface ViewController ()
 
 @property (nonatomic) int sum;
@@ -25,8 +25,10 @@
     int b = 10;
     
     self.sum = a + b;
-    
+    UILabel *label = [UILabel new];
     NSLog(@"The result is: %d", self.sum);
+    
+    NSLog(@"gvhbijokl");
 }
 
 
